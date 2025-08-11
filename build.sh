@@ -470,6 +470,13 @@ main() {
 # Check if script is run from the correct directory
 if [ ! -f "CMakeLists.txt" ] || [ ! -f "Makefile" ]; then
     print_error "This script must be run from the password manager project root directory."
+    print_error "Current directory: $(pwd)"
+    print_error "Required files not found: CMakeLists.txt and/or Makefile"
+    echo ""
+    print_status "To fix this:"
+    print_status "1. Make sure you're in the cloned repository directory"
+    print_status "2. Run: cd passwd-manager"
+    print_status "3. Then run: ./build.sh --all"
     exit 1
 fi
 
