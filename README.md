@@ -631,3 +631,35 @@ make uninstall
 ✅ Configurable auto-lock  
 ✅ Password strength validation  
 ✅ Legacy database migration
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Third-Party Dependencies
+- **Qt6**: Licensed under LGPLv3 or commercial license
+- **OpenSSL**: Licensed under Apache License 2.0
+- **C++ Standard Library**: Part of compiler toolchain
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+### Development Guidelines
+1. Follow the existing code style
+2. Add comments for complex logic
+3. Test your changes thoroughly
+4. Update documentation as needed
+
+## Support
+
+If you encounter any issues or have questions:
+1. Check the [README](README.md) for troubleshooting tips
+2. Review the [QUICKSTART](QUICKSTART.md) guide
+3. Open an issue on GitHub with detailed information
+
+## Acknowledgments
+
+- Qt6 framework for the excellent GUI toolkit
+- OpenSSL for robust cryptographic functions
+- The open-source community for inspiration and best practices
