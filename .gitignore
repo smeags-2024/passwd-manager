@@ -20,7 +20,7 @@ ui_*.h
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
+# Note: We keep our custom Makefile (not CMake-generated)
 *.cmake
 
 # IDE files
